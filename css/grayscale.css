@@ -161,7 +161,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 70px;
     text-wrap: none;
 }
 
@@ -419,9 +419,16 @@ li {
 .skills {
   width: 100%;
   display: flex;
+  margin: 0 auto;
+}
+
+.skills-list {
+  margin: 0 auto;
+
 }
 
 .skill-header {
+  display: block;
   text-align: center;
   margin: 0 auto;
   vertical-align: middle;
@@ -431,7 +438,7 @@ li {
   float: left;
   padding: 20px;
   text-align: center;
-  margin: 20px;
+  /*margin: 20px;*/
 }
 
 .skills li img {
