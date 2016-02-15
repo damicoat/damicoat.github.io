@@ -38,8 +38,8 @@ p {
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
-        font-size: 20px;
+        margin: 0 0 20px;
+        font-size: 30px;
         line-height: 1.6;
     }
 }
@@ -144,10 +144,10 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 90px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/self-portrait.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -162,10 +162,12 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    text-wrap: none;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    margin-bottom: 0px;
 }
 
 @media(min-width:768px) {
@@ -175,12 +177,22 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 90px;
+
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 40px;
     }
+
+    .sub-intro-text {
+      font-size: 30px;
+    }
+
+    .dash {
+      font-size: 40px;
+    }
+
 }
 
 .btn-circle {
@@ -223,7 +235,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -240,7 +252,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -264,9 +276,8 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    color: #000;
+    background: #ffffff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -286,6 +297,10 @@ a:focus {
 
     .download-section {
         padding: 100px 0;
+    }
+
+    .download-section < container {
+      margin: 0 auto;
     }
 
     #map {
@@ -370,4 +385,38 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.row {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.row > h2 {
+  font-size: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+.group {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+
+.skills li {
+  float: left;
+  padding: 20px;
+}
+
+.skills li img {
+  display: block;
+  width: 100%;
+  height: auto;
+  width: 60px;
 }
