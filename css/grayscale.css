@@ -407,16 +407,36 @@ li {
   clear: both;
 }
 
-
+.skills {
+  width: 767px;
+  display: block;
+}
 
 .skills li {
   float: left;
   padding: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 .skills li img {
   display: block;
   width: 100%;
   height: auto;
-  width: 60px;
+  width: 100px;
+  margin: 20px;
+  position: relative;
+}
+
+.text {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+}
+
+.postgres {
+  margin-left: 35px;
 }
