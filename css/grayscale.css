@@ -462,3 +462,10 @@ li {
 .postgres {
   margin-left: 35px;
 }
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid black;
+}
