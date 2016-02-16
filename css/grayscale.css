@@ -464,8 +464,13 @@ li {
 }
 
 .screenshot {
-  width: 100%;
+  width: 60%;
   height: auto;
   display: block;
-  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.screenshot:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=40);
 }
