@@ -424,13 +424,12 @@ li {
 
 .skills-list {
   margin: 0 auto;
-
 }
 
 .skill-header {
   display: block;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto;
   vertical-align: middle;
 }
 
@@ -464,13 +463,34 @@ li {
 }
 
 .screenshot {
-  width: 60%;
+  width: 100%;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
+  cursor: pointer;
 }
 
 .screenshot:hover {
   opacity: 0.6;
   filter: alpha(opacity=40);
+}
+
+.desc {
+  margin: 20px auto;
+  padding: 0 30px;
+  /*padding: 0 20px;*/
+  display: block;
+  width: 300px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.subheader {
+  margin: 20px auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
