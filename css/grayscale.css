@@ -466,10 +466,10 @@ li {
 }
 
 .screenshot {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: block;
-  margin: 10px auto;
+  margin: 40px auto 0 auto;
   cursor: pointer;
 }
 
@@ -479,21 +479,21 @@ li {
 }
 
 .desc {
-  margin: 20px auto;
+  margin: 15px auto;
   padding: 0 30px;
   /*padding: 0 20px;*/
   display: block;
-  width: 300px;
+  width: 80%;
   text-align: left;
   text-decoration: none;
   color: black;
 }
 
 .subheader {
-  margin: 20px auto;
+  margin: 0 auto 20px auto;
   display: block;
-  width: 100%;
-  text-align: center;
+  width: 73.25%;
+  text-align: left;
   text-decoration: none;
   color: black;
 }
@@ -511,3 +511,7 @@ li {
   height: auto;
   margin: 0 auto;
 }*/
+
+.portfolio {
+  display: block;
+}
