@@ -1,1 +1,1 @@
-[Live link](https://www.andrewtdamico.com)
+[Live](https://www.andrewtdamico.com)
