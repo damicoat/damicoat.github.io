@@ -474,7 +474,8 @@ li {
   margin-left: 35px;
 }
 
-.screenshot {
+.screenshot,
+.screenshot2 {
   width: 100%;
   height: auto;
   display: block;
@@ -482,12 +483,27 @@ li {
   cursor: pointer;
 }
 
-.screenshot:hover {
+.screenshot:hover,
+.screenshot2:hover {
   opacity: 0.6;
   filter: alpha(opacity=40);
 }
+.screenshot2 {
+  width: 80%;
+}
 
-.desc {
+.subheader,
+.subheader2 {
+  margin: 0 auto 20px auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.subheader2 {
+  margin-top: 10px
+}
+.desc, .desc2 {
   margin: 15px auto;
   padding: 0 30px;
   /*padding: 0 20px;*/
@@ -497,13 +513,8 @@ li {
   text-decoration: none;
   color: black;
 }
-
-.subheader {
-  margin: 0 auto 20px auto;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: black;
+.desc2 {
+  width: 80%;
 }
 
 /*.port-list {
