@@ -503,7 +503,8 @@ li {
 .subheader2 {
   margin-top: 10px
 }
-.desc, .desc2 {
+.desc,
+.desc2 {
   margin: 15px auto;
   padding: 0 30px;
   /*padding: 0 20px;*/
