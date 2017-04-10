@@ -428,6 +428,9 @@ li {
   display: flex;
   margin: 0 auto;
 }
+.skills-row2 {
+  padding: 0;
+}
 
 .skill-header {
   display: block;
@@ -533,4 +536,11 @@ li {
 
 .portfolio {
   display: block;
+}
+
+@media(max-width:500px) {
+
+  .skills-list > li {
+    float: none; 
+  }
 }
