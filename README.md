@@ -1,1 +1,1 @@
-[Live](www.andrewtdamico.com)
+[Live](http://www.andrewtdamico.com)
