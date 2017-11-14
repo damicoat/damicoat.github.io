@@ -547,4 +547,8 @@ li {
   .skills-list > li {
     float: none; 
   }
+    
+  .download-section .skills {
+      display: block;
+  }
 }
