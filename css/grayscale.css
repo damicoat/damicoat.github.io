@@ -160,6 +160,10 @@ a:focus {
     vertical-align: middle;
 }
 
+.intro .intro-body .container .row {
+    width: 100%;
+}
+
 .intro .intro-body .brand-heading {
     font-size: 70px;
     text-wrap: none;
@@ -542,5 +546,9 @@ li {
 
   .skills-list > li {
     float: none; 
+  }
+    
+  .download-section .skills {
+      display: block;
   }
 }
